@@ -1,0 +1,49 @@
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0; /* Safari and Chrome */
+}
+
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Optional: Set the color of the scrollbar thumb */
+}
+
+
+.custom-col {
+  width: 100px; /* Adjust the width as needed */
+}
+
+.custom-card {
+  background-color: rgb(37, 32, 32);
+  width: 250px; /* Occupy 100% of the parent's width */
+  height: 200px; /* Adjust the height as needed */
+  color: white; /* Text color */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  border-radius: 10px;
+}
+
+/* Additional styles for the card body if needed */
+.custom-card {
+  padding: 10px; /* Example padding for the card body */
+}
+
+.card-heading {
+  color: white;
+  text-align: 'left'
+}
+
+.card-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  /* display: block; */
+  border: .5px solid white;
+  border-radius: 10px;
+  padding: 5px; /* Adjust padding as needed */
+  margin: 5px; /* Adjust margin as needed */
+}

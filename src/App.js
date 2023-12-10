@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       
       <div className='header'>
-        <img src={myimage} className='myPhoto' alt='myphoto'/>
+        <img  className='myPhoto' alt='myphoto'/>
         <div className='name'>
         <h3>Anugrah P</h3>
         <span>@anugrahprathap</span>
