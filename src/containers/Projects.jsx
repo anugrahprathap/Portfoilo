@@ -6,7 +6,7 @@ import '../static/project.css'
 
 function Projects() {
   return (
-    <Container className='main-content '>
+    <div className='main-content '>
       <h3 style={{ color: 'white' }}>Projects</h3>
       <Row className='flex-nowrap overflow-auto row no-scrollbar'>
         <Col className='ml-0 mx-2'>
@@ -52,8 +52,8 @@ function Projects() {
         {/* Repeat the above Col block for additional cards */}
       </Row>
 
-      <Row className='flex-nowrap overflow-auto row no-scrollbar'>
-        <Col className='mx-2 custom-col '>
+      <div className='col-skills flex-nowrap overflow-auto row no-scrollbar'>
+        <Col className='mx-2 custom-col' style={{width: '250px'}}>
           <div className='custom-card'>
           <Card.Title className='card-heading my-2 ' style={{ color: 'white', textAlign: 'left' }}>Frontend</Card.Title>
           <div className='card-items'>
@@ -66,20 +66,22 @@ function Projects() {
           
           </div>
         </Col>
-        <Col className='mx-2 custom-col'>
+        <Col className='mx-2 custom-col' style={{width: '250px'}}>
           <div className='custom-card'>
           <Card.Title className='card-heading my-2 ' style={{ color: 'white', textAlign: 'left' }}>Backend</Card.Title>
           <div className='card-items'>
-            {/* <span style={{ margin:'7px',}} >
-, , , </span> */}
-            <span style={{ margin:'7px',}} >Django</span>
+            <span style={{ margin:'7px',}} >Python</span>
+            <span style={{ margin:'7px',}} >Java</span>
+            <span style={{ margin:'7px',}} >C</span>
+            <span style={{ margin:'7px',}} >C++</span>
+            <span className='card-item' >Django</span>
             <span className='card-item'>Flask</span>
             <span className='card-item'>Node.js</span>
             <span className='card-item'>Django REST</span>
           </div>
           </div>
         </Col>
-        <Col className='mx-2 custom-col'>
+        <Col className='mx-2 custom-col' style={{width: '250px'}}>
           <div className='custom-card text-left'>
           <Card.Title className='card-heading my-2 ' style={{ color: 'white', textAlign: 'left' }}>ML</Card.Title>
           <div className='card-items'>
@@ -92,7 +94,7 @@ function Projects() {
           </div>
           </div>
         </Col>
-        <Col className='mx-2 custom-col'>
+        <Col className='mx-2 custom-col' style={{width: '250px'}}>
           <div className='custom-card'>
           <Card.Title className='card-heading my-2 ' style={{ color: 'white', textAlign: 'left' }}>Others</Card.Title>
           <div className='card-items'>
@@ -106,9 +108,9 @@ function Projects() {
           </div>
           </div>
         </Col>
-        <Col className='mx-2 custom-col'>
-          <div className='custom-card'>
-          <Card.Title className='card-heading my-2 ' style={{ color: 'white', textAlign: 'left' }}>Others</Card.Title>
+        <Col className='mx-2 custom-col' style={{width: '250px',height:'400px'}}>
+          <div className='custom-card' style={{width: '250px',height:'300px'}} >
+          <Card.Title className='card-heading my-2 ' style={{ color: 'white', textAlign: 'left' }}>More Projects</Card.Title>
           <div className='card-items'>
          
             <span style={{ margin:'7px',}} >Git</span>
@@ -120,8 +122,8 @@ function Projects() {
           </div>
           </div>
         </Col>
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 }
 
