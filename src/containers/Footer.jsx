@@ -6,7 +6,7 @@ import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-ic
 
 function Footer() {
   return (
-    <Row className="bg-dark text-white p-4">
+    <Row className="bg-dark text-white p-2">
       <Col xs={4} className="text-center">
         <a href="https://twitter.com/anugrahprathap" target="_blank" className="text-white">
           <FontAwesomeIcon icon={faTwitter} size="2x" />
