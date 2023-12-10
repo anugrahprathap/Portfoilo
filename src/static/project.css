@@ -33,7 +33,7 @@
 
 .card-heading {
   color: white;
-  text-align: 'left'
+  text-align: 'left';
 }
 
 .card-items{
@@ -56,4 +56,7 @@
   width: 100%;
   flex-wrap: wrap;
 
+}
+.card-content{
+  text-align: justify;
 }
