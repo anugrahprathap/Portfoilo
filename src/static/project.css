@@ -60,3 +60,35 @@
 .card-content{
   text-align: justify;
 }
+
+.card-more{
+  background-color: rgb(37, 32, 32);
+  height: 200px;
+  width: 70vw;
+  margin: 4px;
+  border-radius: 10px;
+  padding: 2px;
+  text-align: left ;
+}
+.custom-card-1 a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+  text-align:justify ;
+  padding: 4px;
+  
+}
+.custom-card-1 p{
+  color: aliceblue;
+  /* text-decoration: none; */
+  border-bottom: 1px solid white;
+}
+.custom-card-1 {
+  background-color: rgb(37, 32, 32);
+  width: 300px; /* Occupy 100% of the parent's width */
+  height: 250px; /* Adjust the height as needed */
+  color: white; /* Text color */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  border-radius: 10px;
+  padding: 2px;
+}

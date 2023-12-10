@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './containers/Footer';
 import Projects from './containers/Projects';
 import myimage from'./static/photo.jpg'
 import './static/style.css'
@@ -20,6 +21,7 @@ function App() {
       </div>
     </div>
       <Projects/>
+      <Footer/>
 
 
     </div>
