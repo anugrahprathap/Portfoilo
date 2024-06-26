@@ -1,0 +1,25 @@
+.myworks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    
+}
+.myworks-item{
+    padding: .5rem;
+    width: 43%;
+    text-align: justify;
+    border-radius: .5rem;
+    background-color: rgb(245, 233, 220);
+    font-size: 14px;
+    
+}
+.myworks-item p{
+    margin-left: .5rem;
+    margin-top: .3rem;
+}
+.works-item-heading{
+    display: flex;
+    align-items: center;
+    text-align:left;
+    gap: 1rem;
+}

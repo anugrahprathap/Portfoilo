@@ -1,0 +1,24 @@
+.wid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    
+}
+.wid .item{
+    padding: .5rem;
+    width: 43%;
+    text-align: justify;
+    border-radius: .5rem;
+    background-color: rgb(245, 233, 220);
+    font-size: 14px;
+    
+}
+.wid .item p{
+    margin-left: .5rem;
+    margin-top: .3rem;
+}
+.wid-item-heading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
