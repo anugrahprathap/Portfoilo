@@ -34,21 +34,21 @@ export const Home = () => {
         <div className="links">
           <a
             href="https://twitter.com/anugrahprathap"
-            target="_blank"
+            target=""
             className="text-white icons"
           >
             <FontAwesomeIcon icon={faTwitter} size="50px" />
           </a>
           <a
             href="https://linkedin.com/in/anugrahprathap"
-            target="_blank"
+            target=""
             className="text-white icons"
           >
             <FontAwesomeIcon icon={faLinkedin} size="50px" />
           </a>
           <a
             href="https://github.com/anugrahprathap"
-            target="_blank"
+            target=""
             className="text-white icons"
           >
             <FontAwesomeIcon icon={faGithub} size="50px" />
